@@ -96,18 +96,10 @@ curl -i -X POST http://localhost:3000/api/register \
 
 This returns `400` with an error for each field.
 
-## Deploy on Render
-
-1. Push this repository to GitHub.
-2. On [render.com](https://render.com), choose **New**, then **Web Service**, and connect the repository.
-3. Set the runtime to **Node**, leave the build command empty, and set the start command to `npm start`.
-4. Click **Deploy**. Render sets `PORT` automatically and the app reads it.
 
 ## Notes
 
 - Data is stored in memory, so it resets whenever the server restarts.
 - The page fonts load from Google Fonts. Without internet the app falls back to system fonts.
 
-## License
 
-MIT
