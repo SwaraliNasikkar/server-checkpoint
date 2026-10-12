@@ -2,8 +2,9 @@
 
 A Node.js web app that shows why input must be validated on the server. It has a registration form with browser-side checks switched off, so every submission is checked by the server before anything is saved.
 
-**Live demo:** https://your-app.onrender.com
-**Built with:** Node.js only, with no external dependencies.
+**Live demo:** https://server-checkpoint.onrender.com
+
+
 
 ## Features
 
