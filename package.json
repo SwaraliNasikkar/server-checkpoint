@@ -1,0 +1,8 @@
+{
+  "name": "server-side-validation-demo",
+  "version": "1.0.0",
+  "description": "NodeJS app demonstrating server-side validation (no dependencies)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test" },
+  "engines": { "node": ">=18" }
+}
